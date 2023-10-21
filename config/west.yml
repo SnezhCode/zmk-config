@@ -5,9 +5,9 @@ manifest:
     - name: vendelieu
       url-base: https://github.com/vendelieu
   projects:
-    - name: zmk-config
+    - name: zmk
       remote: vendelieu
-      revision: master
+      revision: main
       import: app/west.yml
   self:
     path: config
