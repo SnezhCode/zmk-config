@@ -1,0 +1,13 @@
+manifest:
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: vendelieu
+      url-base: https://github.com/vendelieu
+  projects:
+    - name: zmk
+      remote: vendelieu
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
