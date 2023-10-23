@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: vendelieu
-      url-base: https://github.com/vendelieu
+    - name: ergo
+      url-base: https://github.com/ergomechstore
   projects:
     - name: zmk
-      remote: vendelieu
+      remote: ergo
       revision: main
       import: app/west.yml
   self:
